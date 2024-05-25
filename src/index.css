@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #101010;
+  background-color: #F7F7F7;
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-family: "Roboto Slab", serif; */
+  /* font-family: "Work Sans", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+}
+.avaterGradient {
+  background: linear-gradient(180deg, #1935ca 0%, #739adb 49.99%, #cdffed 100%);
+}
+.avaterGradient2 {
+  background: linear-gradient(216deg, #d8fcfe 17.7%, #ca2e19 82.89%);
+}
+.avaterGradient3 {
+  background: linear-gradient(216deg, #d9d8fe 17.7%, #9c19ca 82.89%);
+}
+.avaterGradient4 {
+  background: linear-gradient(216deg, #d8fcfe 17.7%, #19ca2b 82.89%);
+}
+.avaterGradient5 {
+  background: linear-gradient(216deg, #d8fcfe 17.7%, #ca9819 82.89%);
+}
+.avaterGradient6 {
+  background: linear-gradient(216deg, #d8fcfe 17.7%, #ff7600 82.89%);
+}
+.signUpBg {
+  background-image: url("./assets//signupBottomImg.png");
+}
+.logoFont {
+  font-family: "Poppins", sans-serif;
+}
+.robotoFont {
+  font-family: "Roboto", sans-serif;
+}
+li {
+  list-style: none;
+}
+
+.menu {
+  height: 0vh;
+  overflow: hidden;
+  /* height: 100vh;
+  transition: .6s ease-in-out; */
+  transition: 0.6s ease-in-out;
+}
+
+.topStyles {
+  background: rgba(0, 0, 0, 0.42);
+}
+
+.active {
+  /* */
+  height: 100vh;
+}
+
+.leaderboardBackground {
+  background: linear-gradient(0deg, #ececff 0%, #ececff 100%), #fffbfe;
+}
